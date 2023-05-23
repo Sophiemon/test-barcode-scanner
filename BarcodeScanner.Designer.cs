@@ -30,13 +30,14 @@
         {
             SuspendLayout();
             // 
-            // Form1
+            // BarcodeScanner
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(462, 355);
-            Name = "Form1";
+            Name = "BarcodeScanner";
             Text = "Barcode Scanner";
+            Load += BarcodeScanner_Load;
             ResumeLayout(false);
         }
 

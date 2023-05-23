@@ -12,7 +12,7 @@ namespace test_barcode_scanner
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice videoCaptureDevice;
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void BarcodeScanner_Load(object sender, EventArgs e)
         {
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo device in filterInfoCollection)
@@ -41,9 +41,6 @@ namespace test_barcode_scanner
             }
             pictureBox.Image = bitmap;
         }
-
-
-
 
     }
 }
