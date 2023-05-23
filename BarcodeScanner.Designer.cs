@@ -1,6 +1,6 @@
 ﻿namespace test_barcode_scanner
 {
-    partial class Form1
+    partial class BarcodeScanner
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,7 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(462, 355);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Barcode Scanner";
             ResumeLayout(false);
         }
 
