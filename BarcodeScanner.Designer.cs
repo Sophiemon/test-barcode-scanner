@@ -85,6 +85,7 @@
             // txtBarcode
             // 
             txtBarcode.Location = new Point(159, 200);
+            txtBarcode.MaxLength = 10;
             txtBarcode.Name = "txtBarcode";
             txtBarcode.Size = new Size(148, 23);
             txtBarcode.TabIndex = 5;
